@@ -1,7 +1,7 @@
 puts 'I am a fortune-teller. Tell me your name:'
 name = gets.chomp
 
-dice = 89
+dice = (rand(101))
 
 puts 'Hi ' + name + ' Your lucky number is ' + dice.to_s + ' '
 
